@@ -133,3 +133,19 @@ Responsive Layouts: Fixed mobile spacing issues in the Koto gallery and shop gri
 ## Reflection
 Part 3 was a critical step in bringing the website to life.The project now moves closer to a fully functional prototype, bridging the gap between static design and future e-commerce capabilities. Wish their was part 4 to bring it live...
 Overral this part showed me where I lack and it isa lot places that need polishing especially JavaScript
+
+## Changelog
+- 2025/10/28 – Fixed navbar responsiveness based on feedback
+- 2025/10/28 – Added hamburger menu to products page
+- 2025/11/28 – Improved hero title readability
+- 2025/11/28 – Added more than one page as Sir commented on that
+- 2025/11/28 – styled more than one page as Sir commented on that
+
+- 2025-11-15 till 19 — Implemented Part 3 features:
+  - Added dynamic product rendering from `product.js` and `shopRender.js`.
+  - Implemented product popover (reusable) with size selection and lightbox.
+  - Implemented search and category filter on the showroom page.
+  - Added enquiry.html and contact.html with AJAX demo submit and client-side JS validation.
+  - Added robots.txt and sitemap.xml, and meta descriptions for SEO.
+  - Documented changes and added form validation and error handling.
+
