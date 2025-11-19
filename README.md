@@ -106,3 +106,30 @@ Spacing issues in shop grid: Initially caused by incorrect HTML structure and fl
 
 Through Part 2, I gained practical experience in responsive design, semantic HTML, custom CSS variables, flex/grid layouts. I also learned the importance of clean image assets and proper HTML structure. The website is now functional, visually aligned with the Verity brand, and structured in a way that can later integrate into an e-commerce site that will sell verity clothing.
 
+# Verity - Website Project (Part 3)
+## Project Overview
+
+Part 3 of the Verity website project focuses on interactivity, dynamic content simulation, and local functionality. Building on the static site from Part 2, this phase introduces JavaScript-driven features, improving user experience and preparing the website for eventual e-commerce integration. All features are currently implemented locally, without a live backend.
+
+## Key Features Completed in Part 3
+
+Form fields validated using JavaScript.
+Success popup displayed upon submission.
+Prepared for future email backend integration
+Fully functional hamburger menu for mobile.
+Cart icon with dynamic item count.
+Slide-out panel displaying selected items.
+Simulated add/remove functionality via JavaScript arrays.
+Adjusted spacing, padding, and layout for mobile responsiveness.
+Popovers, buttons, and popups styled according to brand guidelines.
+Shop page items generated dynamically from JavaScript objects.
+Hover effects and visual consistency maintained.
+
+## Challenges & Solutions
+Enquiry html : Didnt want to load css
+Cart layoyt: Struggling to fix the picture not showing in cart bug
+Responsive Layouts: Fixed mobile spacing issues in the Koto gallery and shop grids using flex and grid refinements.
+
+## Reflection
+Part 3 was a critical step in bringing the website to life.The project now moves closer to a fully functional prototype, bridging the gap between static design and future e-commerce capabilities. Wish their was part 4 to bring it live...
+Overral this part showed me where I lack and it isa lot places that need polishing especially JavaScript
