@@ -1,0 +1,201 @@
+<!-- 
+Logo on the top right/middle
+Drop down panel on the left      
+ - Home      
+ - About 
+ - Koto
+ - Product details
+ - LookBook
+ - Enquiry
+ White background with wall(cement cracks)
+
+ Showcase the latest Available streetwear in a Grid with prices and sizes avaliable
+
+THIS IS MY HARD CODED SHOP PAGE FROM BEFORE I IMPLEMENTED JAVASCRIPT TO RENDER THE PRODUCTS
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shop</title>
+	<!-- Import  icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+	<!-- Import swiper function-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+</head>
+<body>
+	<!-- Header / Navbar -->
+	<header>
+		<nav class="navbar section-content">	
+			<!-- Brand name display -->
+			<a href= "home.html" class="nav-logo">
+				<h2 class="logo-text">V E R I T Y</h2>
+			</a>
+
+			<!-- Menu links -->
+			<ul class="nav-menu">
+				<button id="menu-close-button" class="fas fa-times"></button>
+				<li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+				<li class="nav-item"><a href="home.html/#about" class="nav-link">About</a></li>
+				<li class="nav-item"><a href="#shop" class="nav-link">Shop</a></li>
+				<li class="nav-item"><a href="#founders" class="nav-link">Founders</a></li>
+				<li class="nav-item"><a href="#koto" class="nav-link">Koto</a></li>
+				<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+			</ul>
+
+			<button id="menu-open-button" class="fas fa-bars"></button>
+		</nav>
+	</header>
+<!-- Shop section --> 
+    <!-- Jackets -->
+	 <section class="shop-section" id="shop">
+        <!--<h2 class="title">Shop</h2>-->
+		<h3 class="section-title">Jackets</h3>
+		<div class="section-content">
+			<ul class="shop-list">
+				<li class="shop-item">
+					<img src="images/A2.png" alt="A2" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">D - 001 </h3>
+						<p class="text">R 1 200</p>
+					</div>
+				</li>
+				<li class="shop-item">
+					<img src="images/A9.png" alt="A3" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">C - 001</h3>
+						<p class="text">R 900</p>
+					</div>
+				</li>
+				<li class="shop-item">
+					<img src="images/A21.1bg.png" alt="A6" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">HZ - 001</h3>
+						<p class="text">R 700</p>
+					</div>	
+				</li>
+				<li class="shop-item">
+					<img src="images/A22.1bg.png" alt="Aa" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">D - 002</h3>
+						<p class="text">R 1 400</p>
+					</div>	
+				</li>	
+			</ul>
+		</div>
+
+        <!-- Shirts -->
+        <h3 class="section-title">Shirts</h3>
+		<div class="section-content">
+			<ul class="shop-list">
+				<li class="shop-item">
+					<img src="images/A5.png" alt="A2" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">S - 001<h3>
+						<p class="text">R 700</p>
+					</div>
+				</li>
+				<li class="shop-item">
+					<img src="images/A3.png" alt="A3" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">S - 002</h3>
+						<p class="text">R 800</p>
+					</div>
+				</li>
+				<li class="shop-item">
+					<img src="images/A11.png" alt="A6" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">TS - 001</h3>
+						<p class="text">R 550</p>
+					</div>	
+				</li>
+				<li class="shop-item">
+					<img src="images/A10.png" alt="Aa" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">TS - 002</h3>
+						<p class="text">R 550</p>
+					</div>	
+				</li>	
+			</ul>
+		</div>
+
+        <!-- Accessories -->
+        <h3 class="section-title">Accessories</h3>
+		<div class="section-content">
+			<ul class="shop-list">
+				<li class="shop-item">
+					<img src="images/A24.png" alt="A2" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">C - 001</h3>
+						<p class="text">R 1 200</p>
+					</div>
+				</li>
+				<li class="shop-item">
+					<img src="images/A15.png" alt="A3" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">C - 002</h3>
+						<p class="text">R 1 200</p>
+					</div>
+				</li>
+				<li class="shop-item">
+					<img src="images/A14.png" alt="A6" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">C - 003</h3>
+						<p class="text">R 1 000</p>
+					</div>	
+				</li>
+				<li class="shop-item">
+					<img src="images/A25.png" alt="Aa" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">S - 001</h3>
+						<p class="text">R 800</p>
+					</div>	
+				</li>	
+			</ul>
+		</div>
+
+        <!-- Sweaters -->
+        <h3 class="section-title">Sweaters</h3>
+		<div class="section-content">
+			<ul class="shop-list">
+				<li class="shop-item">
+					<img src="images/A7.png" alt="A2" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">S - 001</h3>
+						<p class="text">R 1 300</p>
+					</div>
+				</li>
+				<li class="shop-item">
+					<img src="images/A13.png" alt="A3" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">S - 004</h3>
+						<p class="text">R 2 200</p>
+					</div>
+				</li>
+				<li class="shop-item">
+					<img src="images/A8.png" alt="A6" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">S - 002</h3>
+						<p class="text">R 1 300</p>
+					</div>	
+				</li>
+				<li class="shop-item">
+					<img src="images/A1.png" alt="Aa" class="shop-image">
+					<div class="shop-details">
+						<h3 class="name">S - 004</h3>
+						<p class="text">R 1 000</p>
+					</div>	
+				</li>	
+			</ul>
+		</div>>
+    
+        
+
+
+		
+	 </section>
+
+
+

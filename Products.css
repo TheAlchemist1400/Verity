@@ -1,0 +1,59 @@
+/* Always show the hamburger button */
+#menu-open-button {
+    display: block !important;
+    color: var(--dark-colour);
+    font-size: 2rem;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 20;
+}
+
+/* Close button inside menu */
+#menu-close-button {
+    display: block;
+    color: var(--dark-colour);
+    font-size: 2rem;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 30;
+}
+
+/* Menu default (hidden on right side) */
+.nav-menu {
+    position: fixed;
+    top: 0;
+    left: -300px;  /* hidden off-screen to the RIGHT */
+    width: 300px;
+    height: 100%;
+    background: var(--white-colour);
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    transition: right 0.3s ease;
+    z-index: 25;
+    display: flex; /* keep flex always */
+}
+
+/* Slide-in when ACTIVE */
+.nav-menu.active {
+    left: 0;   /* slide into view */
+}
+
+/* Disable desktop normal navbar */
+.navbar ul.nav-menu {
+    display: flex !important; /* but controlled by JS */
+}
+
+.nav-link {
+    margin-top: 20px;
+    font-size: var(--font-size-l);
+    color: var(--dark-colour);
+}

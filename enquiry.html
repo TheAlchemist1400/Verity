@@ -1,0 +1,111 @@
+<!-- 
+CSS doesnt want to load properly on this page.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Enquiry</title>
+	<!-- Import  icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+	<!-- Import  styles-->
+	<link rel="stylesheet" href="style.css">
+	<!-- Import swiper function-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar section-content">	
+        <!-- Brand name display -->
+        <a href= "#" class="nav-logo">
+            <h2 class="logo-text">V E R I T Y</h2>
+        </a>
+
+        <!-- Hamburger open button -->
+        <button id="menu-open-button" class="fas fa-bars"></button>
+
+        <!-- Menu links -->
+        <ul class="nav-menu">
+            <button id="menu-close-button" class="fas fa-times"></button>
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#shop" class="nav-link">Shop</a></li>
+            <li class="nav-item"><a href="#founders" class="nav-link">Founders</a></li>
+            <li class="nav-item"><a href="#koto" class="nav-link">Koto</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+</header> 
+<main> 
+    <section class="enquiry-section">
+        <h1 class="section-title">Enquire</h1>
+        <div class="form-group">
+            <!-- <form id="enquiry-form" class="ajax-form" action="#" method="post" novalidate>-->
+            <label for="Full name">Full name </label>
+            <input type="text" name="Full name" required>
+        </div>
+        <div class="form-group">
+            <label for="Email">Email </label>  
+            <input type="text" name="Email" required>  
+        </div>
+        <div class="form-group">
+            <label for="Contact number">Contact number </label>  
+            <input type="text" name="Email" pattern="\\+?[0-9\\s\\-]{7,15}" required>  
+        </div>
+        <div class="form-group">
+            <select name="select">Type of enquiry</label>  
+            <option value="Product availability">Product availability</option> 
+            <option value="Sponsorship">Sponsorship </option>
+            <option value="Volunteer">Volunteer</option>
+            <option value="Careers">Careers</option>
+            <option value="Other">Other</option>
+            </select>
+        </div>
+        
+        <label>Product (optional)
+            <input type="text" name="product" placeholder="e.g. D - 001">
+        </label>
+
+        <label>Details
+            <textarea name="details" rows="5" required></textarea>
+        </label>
+
+        <button class="submit-button">Submit enquiry</button>
+        </form>
+        
+      </div>
+    </section>
+</main>
+
+ <!-- Success Pop -->
+ <div id="successPopup" class="success-popup">
+    <p>Your enquiry has been sent successfully!</p>
+</div>
+
+<script src="script.js"></script>
+
+ <!-- Success Pop -->
+<script>
+    const enquiryForm = document.getElementById("enquiryForm");
+    const successPopup = document.getElementById("successPopup");
+
+    enquiryForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        // Simulate successful submission
+        successPopup.classList.add("show");
+
+        // Auto-hide after 3 seconds
+        setTimeout(() => {
+            successPopup.classList.remove("show");
+        }, 3000);
+
+        // Reset form
+        enquiryForm.reset();
+    });
+</script>
+</body>
+</html>
+

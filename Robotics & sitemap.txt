@@ -1,0 +1,13 @@
+Robots
+User-agent: Amando Moabi
+Disallow: /admin/
+Sitemap: https://verity.co.za/sitemap.xml
+
+Sitemap
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://verity.co.za/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://verity.co.za/shop.html</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://verity.co.za/enquiry.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://verity.co.za/contact.html</loc><changefreq>monthly</changefreq></url>
+</urlset>

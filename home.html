@@ -1,0 +1,338 @@
+<!-- 
+Logo on the top right/middle
+Drop down panel on the left            
+ - About 
+ - Shop
+ - Koto
+ - Product details
+ - LookBook
+ - Enquiry
+ White background with wall(cement cracks)
+
+ Showcase the latest drop and big news
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Verity</title>
+	<!-- Import  icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+	<!-- Import  styles-->
+	<link rel="stylesheet" href="style.css">
+	<!-- Import swiper function-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+</head>
+<body>
+<!-- ================= HEADER / NAVBAR ================= -->
+<header>
+	<nav class="navbar section-content">	
+		<!-- Brand name display -->
+		<a href= "#" class="nav-logo">
+			<h2 class="logo-text">V E R I T Y</h2>
+		</a>
+
+			<!-- Hamburger open button -->
+		<button id="menu-open-button" class="fas fa-bars"></button>
+
+		<!-- Menu links -->
+		<ul class="nav-menu">
+			<button id="menu-close-button" class="fas fa-times"></button>
+			<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+			<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+			<li class="nav-item"><a href="#shop" class="nav-link">Shop</a></li>
+			<li class="nav-item"><a href="#founders" class="nav-link">Founders</a></li>
+			<li class="nav-item"><a href="#koto" class="nav-link">Koto</a></li>
+			<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+
+<!-- ================= HERO SECTION ================= -->
+<main>
+	<section class="hero-section">
+		<div class="section-content hero-content">
+			<div class="hero-details">
+				<h2 class="section-title">The state or quality of being in accordance with fact or reality</h2>
+				<p class="description">
+					Welcome to the threshold of elegance; our online exhibition<br>
+					is a showroom to showcase our products only!<br>
+					Visit our store to purchase.
+				</p>
+				<!--<div class="buttons">
+					<a href="Shop.html" class="button order-now">Order Now</a>
+					<a href="#contact" class="button contact-us">Contact Us</a>
+					<button class="button-map" popovertarget="map" popovertargetaction="toggle">Store </button>
+				</div>-->
+				<!--Not the problem-->
+				<div class="buttons">
+					<a href="Shop.html" class="button order-now">APPAREL</a>
+					<a href="#contact" class="button contact-us">CONTACT US</a>
+					<button class="button location-btn" popovertarget="map" popovertargetaction="toggle">LOCATION</button>
+				</div>
+				<!--Popover-->
+				<div popover id="map" popover>
+					<h3>1 May Avenue, Arcon-park, Vereeniging, Gauteng 1937</h3>
+					<a href="https://www.google.com/maps/dir/?api=1&destination=1+May+Ave,+Arcon+Park,+Vereeniging" target="_blank">Directions</a>
+					
+					<iframe 
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.797692428257!2d27.92565931502179!3d-26.673783983153736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95223f6f4f4d7b%3A0x8e5e8f5e8e5e8f5e!2sVerity%20Store!5e0!3m2!1sen!2sza!4v1700000000000!5m2!1sen!2sza" 
+						width="500" 
+						height="400" 
+						style="border:0;" 
+						allowfullscreen loading="lazy" 
+						referrerpolicy="no-referrer-when-downgrade">
+					</iframe>
+				</div>
+			</div>
+			<div class="hero-image-wrapper">
+				<img src="images/Logovideo-ezgif.com-cut.gif" alt="Hero" class="hero-image">
+			</div>
+		</div>
+	</section>
+</main>
+
+<!-- ================= ABOUT SECTION ================= -->
+<section class="about-section" id="about">
+	<div class="section-content about-content">
+		<div class="about-image-wrapper">
+			<img src="images/persian rug hobbies lay-Photoroom.png" alt="" class="about-image-wrapper">
+		</div>
+		<div class="about=details">
+			<h2 class="section-title">About us</h2>
+			<p class="text">
+				At Verity, we believe in the power of simplicity. Our brand is built on the idea that less is more
+				— stripping away distractions to focus on what truly matters: form, function, and authenticity. Every piece we create is designed with intention, 
+				bridging the gap between timeless style and contemporary culture. We see clothing not just as garments, but as a blank canvas for self-expression,
+				where minimal design meets maximum impact. With a focus on quality, sustainability, and modern aesthetics, verity represents a mindset of clarity in a cluttered world,
+				A place where elegence meets simplicity in Vaal triangle a city driven by clothes. Verity caters for streetwear style and young money elegance style,
+				inspired by the lack of diversity in SA fashion, art industry and the vaal cluture. This brand looks forward to conjuring and rebranding South African fashion industry while cleaning up vaal.
+			</p>
+			<div class="social-link-list">
+				<a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+				<a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+				<a href="#" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+				<a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ================= SHOP SECTION ================= -->
+<section class="shop-section" id="shop">
+	<h2 class="section-title">Shop</h2>
+	<div class="section-content">
+		<ul class="shop-list">
+			<li class="shop-item">
+				<img src="images/A2.png" alt="A2" class="shop-image">
+				<div class="shop-details">
+					<h3 class="name">Jackets</h3>
+					<p class="text">Limited range of elegent jacket</p>
+				</div>
+			</li>
+			<li class="shop-item">
+				<img src="images/A3.png" alt="A3" class="shop-image">
+				<div class="shop-details">
+					<h3 class="name">Shirts</h3>
+					<p class="text">Limited range of elegent shirts</p>
+				</div>
+			</li>
+			<li class="shop-item">
+				<img src="images/A14.png" alt="A6" class="shop-image">
+				<div class="shop-details">
+					<h3 class="name">Accessories</h3>
+					<p class="text">Limited range of elegent accessories</p>
+				</div>	
+			</li>
+			<li class="shop-item">
+				<img src="images/A1.png" alt="Aa" class="shop-image">
+				<div class="shop-details">
+					<h3 class="name">Sweaters</h3>
+					<p class="text">Limited range of elegent sweaters</p>
+				</div>	
+			</li>	
+		</ul>
+		<div class="buttons">
+			<a href="Shop.html" class="button Shop-now">See More</a>
+		</div>	
+	</div>
+
+</section>
+
+<!-- ================= FOUNDERS SECTION ================= -->
+<section class="founders-section" id="founders">
+	<h2 class="section-title">Founders</h2>
+	<div class="sction-content">
+		<div class="slider-container">
+			<div class="slide-wrapper">
+				<ul class="class founders list">
+					<li class="founders">
+						<img src="images/Founder 2.jpg" alt="Founder" class="user-image">
+						<h3 class="name">Pharrel Williams</h3>
+						<i class="bio">Pharrell Lanscilo Williams , also known mononymously as Pharrell,
+								is an American musician, singer, songwriter, rapper, record producer, and fashion designer.</i>
+					</li>
+					<li class="founders">
+						<img src="images/Founder 3.jpg" alt="Founder" class="user-image">
+						<h3 class="name">Samuel Ross</h3>
+						<i class="bio">Samuel Ross is a British fashion designer, creative director, and artist. He is known for founding the fashion label
+								A-COLD-WALL*, Industrial Design studio SR_A SR_A, VERITY and the Black British Artists Grants Programme.</i>
+					</li>
+					<li class="founders">
+						<img src="images/Founder 4.jpg" alt="Founder" class="user-image">
+						<h3 class="name">Virgil Abloh</h3>
+						<i class="bio">Virgil Abloh was an American fashion designer and entrepreneur. A trained architect, Abloh founded his own line of luxury streetwear
+								clothing under the moniker Pyrex Vision in 2012, which he transformed into the Milan based fashion label Off-White in 2013.</i>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ================= KOTO SECTION ================= -->
+<section class="koto-section" id="koto">
+	<h2 class="section-title">Koto</h2>
+	<div class="section-content">
+		<ul class="koto-list">
+			<li class="koto-item">
+				<img src="images/K8.jpg" alt="Koto" class="koto-image">
+			</li>
+			<li class="koto-item">
+				<img src="images/K7.jpg" alt="Koto" class="koto-image">
+			</li>
+			<li class="koto-item">
+				<img src="images/K3.jpg" alt="Koto" class="koto-image">
+			</li>
+			<li class="koto-item">
+				<img src="images/K4.jpg" alt="Koto" class="koto-image">
+			</li>
+			<li class="koto-item">
+				<img src="images/K5.jpg" alt="Koto" class="koto-image">
+			</li>
+			<li class="koto-item">
+				<img src="images/K6.jpg" alt="Koto" class="koto-image">
+			</li>
+		</ul>
+	</div>
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+<section class="contact-section" id="contact">
+	<h2 class="section-title">Contact us</h2>
+	<div class="section-content contact-content">
+		<ul class="contact-info-list">
+			<li class="contact-info">
+				
+				<i class="fa-solid fa-location-crosshairs"></i>
+				<p>1 May Avenue, Arcon-park, Vereeniging, Gauteng 1937</p>
+			</li>
+			<li class="contact-info">
+				<i class="fa-regular fa-envelope"></i>
+				<p>verity@gmail.com</p>
+			</li>
+			<li class="contact-info">
+				<i class="fa-solid fa-phone"></i>
+				<p>(+27) 71 433 0598</p>
+			</li>
+			<li class="contact-info">
+				<i class="fa-regular fa-clock"></i>
+				<p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+			</li>
+			<li class="contact-info">
+				<i class="fa-regular fa-clock"></i>
+				<p>Saturday: 9:00 AM - 3:00 PM</p>
+			</li>
+			<li class="contact-info">
+				<i class="fa-regular fa-clock"></i>
+				<p>Sunday: closed</p>
+			</li>
+			<li class="contact-info">
+				<i class="fa-solid fa-globe"></i>
+				<p>www.verity.co.za</p>
+			</li>
+		</ul>
+
+		<form id="contactForm" action="#" class="contact-form">
+			<input type="text" placeholder="Your name" class="form-input" required>
+			<input type="email" placeholder="Your email" class="form-input" required>
+			<textarea placeholder="Your message" class="form-input" required></textarea>
+			<button class="submit-button">Submit</button>
+		</form>
+	</div>
+	<!-- Success Popup -->
+	<div id="successPopup" class="success-popup">
+		Your message has been submitted successfully!
+	</div>
+</section>		
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer-section">
+	<div class="section-content">
+		<p class="copyright-text">@ 2023 Verity</p>
+
+		<div class="social-link-list">
+			<a href="https://www.instagram.com/v.e.r.i.t.y.y?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+			<a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+			<a href="#" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+			<a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+		</div>
+		<p class="policy-text">
+			<a href="#" class="policy-link">Privacy policy</a>
+			<span class="separator">.</span>
+			<a href="#" class="policy-link">Refund policy</a> 
+		</p>
+	</div>
+</footer>
+
+<!-- Floating Cart Button -->
+<div id="floating-cart-btn" class="cart-hidden">
+    <img src="images/cart.png" alt="Cart" class="cart-icon">
+    <span id="cart-count">0</span>
+</div>
+
+<!-- Slide-Out Cart Panel -->
+<div id="cart-panel">
+    <div id="cart-header">
+        <h2>Your Cart</h2>
+        <button id="close-cart">✕</button>
+    </div>
+
+    <div id="cart-items"></div>
+
+    <button id="checkout-btn">Proceed to Payment</button>
+</div>
+
+
+<script src="products.js"></script>
+<script src="shopRender.js"></script>
+<script src="script.js"></script>
+
+<script>
+const contactForm = document.getElementById("contactForm");
+const successPopup = document.getElementById("successPopup");
+
+contactForm.addEventListener("submit", function(e){
+    e.preventDefault();
+
+    // Simulate a submission delay
+    setTimeout(() => {
+        // Show success popup
+        successPopup.classList.add("show");
+
+        // Hide popup after 3 seconds
+        setTimeout(() => successPopup.classList.remove("show"), 3000);
+
+        // Reset form
+        contactForm.reset();
+    }, 500); // 0.5 second delay
+});
+</script>
+
+</body>
+</html>
+
+
+

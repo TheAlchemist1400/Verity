@@ -1,0 +1,104 @@
+<!-- 
+Logo on the top right/middle
+Drop down panel on the left      
+ - Home      
+ - About 
+ - Koto
+ - Product details
+ - LookBook
+ - Enquiry
+ White background with wall(cement cracks)
+
+ Showcase the latest Available streetwear in a Grid with prices and sizes avaliable
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shop</title>
+
+	<!-- Import  icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Import swiper function-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+</head>
+<body>
+
+<!-- Header / Navbar -->
+<header>
+	<nav class="navbar section-content">	
+		<!-- Brand name display -->
+		<a href= "home.html" class="nav-logo">
+			<h2 class="logo-text">V E R I T Y</h2>
+		</a>
+
+		<!-- Search bar -->
+		<div class="search-container">
+    		<input type="text" id="search-input" placeholder="Search apparel...">
+		</div>
+		<!-- Menu links -->
+		<ul class="nav-menu">
+			<button id="menu-close-button" class="fas fa-times"></button>
+			<li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+			<li class="nav-item"><a href="home.html/#about" class="nav-link">About</a></li>
+			<li class="nav-item"><a href="#shop" class="nav-link">Shop</a></li>
+			<li class="nav-item"><a href="#founders" class="nav-link">Founders</a></li>
+			<li class="nav-item"><a href="#koto" class="nav-link">Koto</a></li>
+			<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+		</ul>
+
+		<button id="menu-open-button" class="fas fa-bars"></button>
+	</nav>
+</header>
+
+<main>
+	<section class="shop-section" id="shop">
+		<div id="shop-container"></div>
+	</section>
+</main>
+
+<!-- product-modal -->
+<div id="product-modal" class="modal" style="display:none;">
+	<div class="modal-content">
+		<span id="modal-close">&times;</span>
+
+		<img id="modal-image" alt="Product Image">
+		<h2 id="modal-name"></h2>
+		<p id="modal-price"></p>
+
+		<div id="modal-sizes">
+			<h3>Available Sizes</h3>
+			<div id="size-buttons"></div>
+		</div>
+		
+		<button id="add-to-cart-btn">Add to Cart</button>
+	</div>
+</div>
+
+<!-- Floating Cart Button -->
+<div id="floating-cart-btn">
+    <img src="images/cart.png" alt="Cart" class="cart-icon">
+    <span id="cart-count">0</span>
+</div>
+
+<!-- Slide-Out Cart Panel -->
+<div id="cart-panel">
+    <div id="cart-header">
+        <h2>Your Cart</h2>
+        <button id="close-cart">✕</button>
+    </div>
+
+    <div id="cart-items"></div>
+
+    <button id="checkout-btn">Proceed to Payment</button>
+</div>
+
+<script src="products.js"></script>
+<script src="shopRender.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
